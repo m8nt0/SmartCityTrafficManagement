@@ -32,7 +32,6 @@ This project provides a comprehensive system to manage traffic in a smart city u
 
 ## Project Structure
 
-    ```plaintext
     smart-city-traffic-management/
     ├── .env
     ├── .gitignore
