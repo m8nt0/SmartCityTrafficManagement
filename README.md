@@ -258,4 +258,4 @@ This project uses GitHub Actions for CI/CD. Workflows are defined in the `.githu
 
 ## Contributing
 
-We welcome contributions! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to get started.
+We welcome contributions! Please see the [CONTRIBUTING.md](docs/CONTRIBUTING.md) for more details on how to get started.
