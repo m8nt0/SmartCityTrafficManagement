@@ -1,0 +1,8 @@
+experiment:
+  name: Traffic Prediction Experiment 2
+  description: Experiment with additional features and hyperparameter tuning.
+  parameters:
+    model_type: regression
+    alpha: 0.001
+    max_iter: 2000
+    additional_features: true

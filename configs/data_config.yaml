@@ -1,0 +1,7 @@
+database:
+  type: postgres
+  host: localhost
+  port: 5432
+  user: user
+  password: password
+  dbname: traffic_db

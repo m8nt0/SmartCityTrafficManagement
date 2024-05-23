@@ -1,0 +1,5 @@
+model:
+  type: regression
+  parameters:
+    alpha: 0.01
+    max_iter: 1000

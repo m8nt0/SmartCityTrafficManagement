@@ -1,0 +1,6 @@
+api:
+  host: 0.0.0.0
+  port: 8000
+docker:
+  image: smart_city_traffic_management
+  container_name: traffic_management

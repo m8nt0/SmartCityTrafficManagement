@@ -1,0 +1,7 @@
+experiment:
+  name: Traffic Prediction Experiment 1
+  description: Initial experiment to predict traffic patterns using regression.
+  parameters:
+    model_type: regression
+    alpha: 0.01
+    max_iter: 1000

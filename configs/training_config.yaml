@@ -1,0 +1,4 @@
+training:
+  batch_size: 32
+  epochs: 10
+  validation_split: 0.2
