@@ -32,99 +32,99 @@ This project provides a comprehensive system to manage traffic in a smart city u
 
 ## Project Structure
 
-```plaintext
-smart-city-traffic-management/
-├── .env
-├── .gitignore
-├── .pre-commit-config.yaml
-├── .github/
-│   └── workflows/
-│       ├── ci.yml
-│       └── cd.yml
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── INSTALLATION.md
-├── README.md
-├── USAGE.md
-├── configs/
-│   ├── data_config.yaml
-│   ├── deployment_config.yaml
-│   ├── model_config.yaml
-│   └── training_config.yaml
-├── deployment/
-│   ├── api/
-│   │   ├── api_endpoints.go
-│   │   ├── api_endpoints.py
-│   │   └── requirements.txt
-│   └── docker/
-│       ├── Dockerfile
-│       └── docker-compose.yml
-├── docs/
-│   ├── README.md
-│   ├── CONTRIBUTING.md
-│   ├── INSTALLATION.md
-│   ├── USAGE.md
-│   └── CHANGELOG.md
-├── experiments/
-│   ├── experiment_1.yaml
-│   └── experiment_2.yaml
-├── monitoring/
-│   ├── logging_config.py
-│   ├── error_tracking.py
-│   ├── model_monitoring.py
-│   └── performance_monitoring.py
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── deep_learning.ipynb
-│   ├── nlp_analysis.ipynb
-│   ├── reinforcement_learning.ipynb
-│   ├── supervised_learning.ipynb
-│   ├── unsupervised_learning.ipynb
-│   └── experiments/
-│       └── experiment_analysis.ipynb
-├── reports/
-│   └── final_report.pdf
-├── security/
-│   ├── security_audit.py
-│   └── vulnerability_scan.py
-├── src/
-│   ├── data/
-│   │   ├── data_loader.py
-│   │   ├── data_preprocessing.py
-│   │   ├── feature_engineering.py
-│   │   └── data_schema.json
-│   ├── models/
-│   │   ├── supervised/
-│   │   │   └── regression_model.py
-│   │   ├── unsupervised/
-│   │   │   └── clustering_model.py
-│   │   ├── reinforcement/
-│   │   │   └── rl_agent.py
-│   │   └── nlp/
-│   │       └── nlp_model.py
-│   ├── main.py
-│   └── utils/
-│       ├── helpers.py
-│       └── validators.py
-├── setup.py
-├── requirements_dev.txt
-└── tests/
-    ├── test_api_endpoints.py
-    ├── test_data_loading.py
-    ├── test_integration.py
-    ├── test_model_evaluation.R
-    ├── test_model_evaluation.py
-    ├── test_model_training.py
-    └── test_end_to_end.py
-├── webapp/
-│   ├── static/
-│   │   ├── app.js
-│   │   ├── styles.css
-│   │   └── charts.js
-│   ├── templates/
-│   │   ├── index.html
-│   │   └── dashboard.html
-│   └── app.py
+    ```plaintext
+    smart-city-traffic-management/
+    ├── .env
+    ├── .gitignore
+    ├── .pre-commit-config.yaml
+    ├── .github/
+    │   └── workflows/
+    │       ├── ci.yml
+    │       └── cd.yml
+    ├── CHANGELOG.md
+    ├── CONTRIBUTING.md
+    ├── INSTALLATION.md
+    ├── README.md
+    ├── USAGE.md
+    ├── configs/
+    │   ├── data_config.yaml
+    │   ├── deployment_config.yaml
+    │   ├── model_config.yaml
+    │   └── training_config.yaml
+    ├── deployment/
+    │   ├── api/
+    │   │   ├── api_endpoints.go
+    │   │   ├── api_endpoints.py
+    │   │   └── requirements.txt
+    │   └── docker/
+    │       ├── Dockerfile
+    │       └── docker-compose.yml
+    ├── docs/
+    │   ├── README.md
+    │   ├── CONTRIBUTING.md
+    │   ├── INSTALLATION.md
+    │   ├── USAGE.md
+    │   └── CHANGELOG.md
+    ├── experiments/
+    │   ├── experiment_1.yaml
+    │   └── experiment_2.yaml
+    ├── monitoring/
+    │   ├── logging_config.py
+    │   ├── error_tracking.py
+    │   ├── model_monitoring.py
+    │   └── performance_monitoring.py
+    ├── notebooks/
+    │   ├── data_preprocessing.ipynb
+    │   ├── deep_learning.ipynb
+    │   ├── nlp_analysis.ipynb
+    │   ├── reinforcement_learning.ipynb
+    │   ├── supervised_learning.ipynb
+    │   ├── unsupervised_learning.ipynb
+    │   └── experiments/
+    │       └── experiment_analysis.ipynb
+    ├── reports/
+    │   └── final_report.pdf
+    ├── security/
+    │   ├── security_audit.py
+    │   └── vulnerability_scan.py
+    ├── src/
+    │   ├── data/
+    │   │   ├── data_loader.py
+    │   │   ├── data_preprocessing.py
+    │   │   ├── feature_engineering.py
+    │   │   └── data_schema.json
+    │   ├── models/
+    │   │   ├── supervised/
+    │   │   │   └── regression_model.py
+    │   │   ├── unsupervised/
+    │   │   │   └── clustering_model.py
+    │   │   ├── reinforcement/
+    │   │   │   └── rl_agent.py
+    │   │   └── nlp/
+    │   │       └── nlp_model.py
+    │   ├── main.py
+    │   └── utils/
+    │       ├── helpers.py
+    │       └── validators.py
+    ├── setup.py
+    ├── requirements_dev.txt
+    └── tests/
+        ├── test_api_endpoints.py
+        ├── test_data_loading.py
+        ├── test_integration.py
+        ├── test_model_evaluation.R
+        ├── test_model_evaluation.py
+        ├── test_model_training.py
+        └── test_end_to_end.py
+    ├── webapp/
+    │   ├── static/
+    │   │   ├── app.js
+    │   │   ├── styles.css
+    │   │   └── charts.js
+    │   ├── templates/
+    │   │   ├── index.html
+    │   │   └── dashboard.html
+    │   └── app.py
 
 ## Setup and Installation
 
